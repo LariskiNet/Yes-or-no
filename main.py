@@ -1,7 +1,7 @@
 from aiohttp import web
 from aioalice import Dispatcher, get_new_configured_app
 
-WEBHOOK_URL_PATH = 'https://github.com/LariskiNet/Yes-or-no.git'  # webhook endpoint
+WEBHOOK_URL_PATH = 'Yes-or-no/alice_app.py'  # webhook endpoint
 
 WEBAPP_HOST = 'localhost'
 WEBAPP_PORT = 3001
